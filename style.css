@@ -1,0 +1,145 @@
+body {
+    font-size: 12pt;
+    font-family: arial;
+}
+
+hl {
+    width: 100%;
+}
+
+#nav {
+    text-align: right;
+    margin: 10px;
+}
+
+#nav > a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 10pt;
+}
+
+#nav > a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    text-align: center;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+img[id="logo"] {
+    width: 300px;
+    margin: 10px;
+}
+
+img[id="advanced_logo"] {
+    width: 100px;
+    margin: 0px auto 0px;
+    float: left;
+}
+
+div[id="textBar"] {
+    border-radius: 20px;
+    width: 600px;
+
+    padding: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    margin: 10px auto;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 0px 10px 20px -10px gray;
+}
+
+input[id="Ntext"] {
+    padding: 4px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #F1F1F1;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    outline: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+.Atext {
+    padding: 4px;
+    width: 60%;
+}
+
+.Atext:focus {
+    outline: 1px solid blue;
+}
+
+#title {
+    text-align: left;
+    color: #DA0000;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+#advanced_sub {
+    background-color: #00A0FF;
+    color: white;
+}
+
+#left {
+    float: left;
+    width: 55%;
+    text-align: left;
+    color: #303030;
+}
+
+#right {
+    float: right;
+    width: 45%;
+    text-align: left;
+    color: #303030;
+}
+
+#left > p, #right > p {
+    font-size: 13pt;
+    font-weight: 550;
+}
+
+#right div {
+    font-size: 11pt;
+}
+
+.example {
+    font-family: monospace;
+    font-size: 10pt;
+}
+
+#b4Atext {
+    width: 30%;
+    display: inline-block;
+}
+
+#right > div {
+    line-height: 30px;
+}
+
+#left > div {
+    line-height: 30px;
+}
+
+#clear {
+    clear: both;
+    padding: 20px;
+}
