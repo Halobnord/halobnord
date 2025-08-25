@@ -30,7 +30,7 @@ hl {
 }
 
 img[id="logo"] {
-    width: 300px;
+    width: clamp(100px, 40%, 300px);
     margin: 10px;
 }
 
@@ -42,7 +42,7 @@ img[id="advanced_logo"] {
 
 div[id="textBar"] {
     border-radius: 20px;
-    width: 600px;
+    width: clamp(100px, 60%, 600px);
 
     padding: 13px;
     padding-top: 6px;
